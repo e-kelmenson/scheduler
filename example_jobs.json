@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "id": "Math Review Session",
+      "start time": "1",
+      "end time": "3",
+      "weight": "2"
+    },
+    {
+      "id": "Physics Review Session 1",
+      "start time": "2",
+      "end time": "4",
+      "weight": "4"
+    },
+    {
+      "id": "Physics Review Session 2",
+      "start time": "10",
+      "end time": "12",
+      "weight": "4"
+    },
+    {
+      "id": "FWS Review Session",
+      "start time": "5",
+      "end time": "8",
+      "weight": "1"
+    },
+    {
+      "id": "CS Study Group",
+      "start time": "6",
+      "end time": "7",
+      "weight": "5"
+    },
+    {
+      "id": "Operations Research OH",
+      "start time": "7",
+      "end time": "9",
+      "weight": "8"
+    },
+    {
+      "id": "CS OH",
+      "start time": "9",
+      "end time": "11",
+      "weight": "7"
+    }
+  ]
+}

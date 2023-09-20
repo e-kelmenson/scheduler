@@ -1,0 +1,58 @@
+{
+  "tasks": [
+    {
+      "id": "Math PSet 4",
+      "deadline": {
+        "month": "1",
+        "day": "21",
+        "year": "2020"
+      },
+      "duration": "2",
+      "priority": "2"
+    },
+    {
+      "id": "Phys Lab",
+      "deadline": {
+        "month": "1",
+        "day": "19",
+        "year": "2020"
+      },
+      "duration": "2.5",
+      "priority": "2"
+    },
+    {
+      "id": "Phys Studying",
+      "deadline": {
+        "month": "1",
+        "day": "25",
+        "year": "2020"
+      },
+      "duration": "5",
+      "priority": "2"
+    },
+    {
+      "id": "Phys Pset 3",
+      "deadline": {
+        "month": "1",
+        "day": "21",
+        "year": "2020"
+      },
+      "duration": "4",
+      "priority": "5"
+    }
+  ],
+  "people": [
+    {
+      "name": "Nate",
+      "workload": "3"
+    },
+    {
+      "name": "David",
+      "workload": "2"
+    },
+    {
+      "name": "Walker",
+      "workload": "1"
+    }
+  ]
+}

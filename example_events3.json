@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": "Seminar",
+      "start time": "9",
+      "end time": "12",
+      "weight": "0"
+    },
+    {
+      "id": "Party",
+      "start time": "6",
+      "end time": "9",
+      "weight": "4"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+The lines of code of only relevant files (actual ocaml code and text.ml) is shown below:
+1. command.ml and command.mli = 30
+2. command_events.ml command_events.mli = 53
+3. command_meetings.ml command_meetings.mli = 51
+4. command_tasks.ml command_tasks.mli = 50
+5. events.ml events.mli = 103
+6. geticalinfo.ml geticalinfo.ml = 127
+7. main.ml = 45
+8. meetings.ml meetings.mli = 94
+9. process_events.ml process_events.mli = 71
+10. process_meetings.ml process_meetings.mli = 59
+11. process_tasks.ml process_tasks.mli = 110
+12. state_events.ml state_events.mli = 32
+13. state_meetings.ml state_meetings.mli = 46
+14. state_tasks.ml state_tasks.mli = 161
+15. tasks.ml tasks.mli = 105
+16. test.ml = 400
+
+TOTAL: 1489
+
+

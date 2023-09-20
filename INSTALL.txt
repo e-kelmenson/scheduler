@@ -1,0 +1,64 @@
+Instructions on installing our program:
+1. Download the zip file from cms.
+2. Go to the appropriate directory in the terminal and once inside the src folder, run make schedule. Make schedule will prompt you to enter a command.
+	We currently have the following commands:
+	A. help -> prints command descriptions
+	B. quit -> quits program
+	C. tasks <file> -> using file	(currently example_tasks.json is a supported file name), starts task scheduler
+		Task scheduler supports the following commands: 
+		a. schedule <algo> -> runs a schedule using specified algorithm 
+			(algo is one of FCFS, SJF, EDF, RR, SJFRR, EDFRR)
+		b. exit -> exits program
+		c. remove <task name> -> removes the task from the scheduler if it exists
+		d. add <task name> <deadline> <duration> <priority> -> adds a new task if it doesn't already exist 
+			example: add Sewing 08/10/2014 1.5 2
+			i. Task name can by any name that isn't already in the schedule
+			ii. Deadline should be in the format mm/dd/yyyy ex. 2/21/2020
+			iii. Duration should be a floating point number
+			iv. Priority should be an int
+		e. display <n> -> prints out the next int n tasks according to the most recent scheduling algorithm. 
+		f. modify <task name> <deadline> <duration> <priority> -> same rules as the add method applies except task name must match a name in the schedule.
+			example: modify Math Pset 4 08/10/2020 100.5 2
+		g. delegate -> prints mapping of tasks to people based on last scheduling algorithm ran
+		h. help -> prints command descriptions
+	D. events -> starts event scheduler
+		Events scheduler supports the following commands:
+		a. exit -> exits program
+		b. newlist <name> -> starts new empty list with identifier name
+		c. findopt <name> -> computes optimal selection of events in name schedule
+		d. display <name> -> displays events in name schedule
+		e. addfromfile <name> <file> -> creates events schedule with name from file
+		f. addevent <name> <e_name> <s_time> <e_time> <weight> -> adds event to name schedule
+			example: addevent Class ???
+			i. Event name is string
+			ii. Start time is int ???
+			iii. End time is int ???
+			iv. Weight is int
+		g. removeevent <name> <e_name> -> removes event with e_name from name schedule
+		h. returnavailability <files> <event> <s_time> <s_day> <s_month> <s_year> <e_time> <e_day> <e_month> <e_year>
+			Note: time and dates must be valid calendar times and dates
+			example: returnavailability cal1.ics cal2.ics Party 080000 15 12 2020 090000 15 12 2020
+			i. Files is input of file names separated by ' ' ex. cal1.ics cal2.ics
+			ii. Event is name of event to check for availability
+			iii. Start time is hhmmss int
+			iv. Start day is dd int
+			v. Start month is mm int
+			vi. Start year is yyyy int
+			vii. End time is hhmmss int
+			viii. End day is dd int
+			ix. End month is mm int
+			x. End year is yyyy int
+	E. meeting -> starts meeting scheduler
+		Meeting scheduler supports the following commands:
+		a. exit -> exits program
+		b. newgroup <name> -> starts new empty group with identifier name
+		c. findmeetings <name> -> computes selection of events with name
+		d. displaygroup <name> -> displays group
+		e. displaymeetings <name> -> displays optimal meeting times
+		f. addfromfile <name> <file> -> adds group from file to name schedule
+		g. addevent <name> <p_name> <???> -> adds person with property to name group
+			example: ????
+			i. p_name is string
+			ii. ????
+		h. removeevent <name> <p_name> -> removes person with p_name from name group
+		

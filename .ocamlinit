@@ -1,0 +1,12 @@
+#require "oUnit";;
+#require "yojson";;
+#require "ANSITerminal";;
+#require "str";;
+#directory "_build";;
+#load "command.cmo";;
+#load "events.cmo";;
+#load "geticalinfo.cmo";;
+#load "meetings.cmo";;
+#load "state_tasks.cmo";;
+#load "tasks.cmo";;
+

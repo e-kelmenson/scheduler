@@ -1,0 +1,48 @@
+{
+  "people": [
+    {
+      "name": "Paul",
+      "busy": [
+        {
+          "start time": 0,
+          "end time": 2
+        },
+        {
+          "start time": 5,
+          "end time": 7
+        }
+      ]
+    },
+    {
+      "name": "Jess",
+      "busy": [
+        {
+          "start time": 1,
+          "end time": 3
+        },
+        {
+          "start time": 5,
+          "end time": 7
+        }
+      ]
+    },
+    {
+      "name": "Dan",
+      "busy": [
+        {
+          "start time": 0,
+          "end time": 3
+        },
+        {
+          "start time": 9,
+          "end time": 10
+        }
+      ]
+    }
+  ],
+  "timeline": {
+    "start time": 0,
+    "end time": 12
+  },
+  "meeting duration": 1
+}
